@@ -1,0 +1,66 @@
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(243, 244, 245);
+    display: flex;
+    
+}
+.left_contact{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    overflow: hidden;
+}
+.left_contact img{
+    background-color: white;
+  
+}
+
+.right_contact h2{
+    font-size: 30px;
+}
+
+.right_contact form{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.right_contact form input{
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.right_contact form span{
+    color: green;
+}
+
+.right_contact form textarea{
+    width: 300px;
+    height: 200px;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.right_contact form button{
+    width: 150px;
+    height: 30px;
+    color: whitesmokes;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: crimson;
+}
+
+.right_contact{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
